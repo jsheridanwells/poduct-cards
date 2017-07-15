@@ -1,53 +1,87 @@
+/*CONTAINER STYLES*/
+
 body {
-	background-color: #333;
+	background-color: #eee;
 }
 
 .container {
 	width: 90%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+
+header.title {
+	width: 100%;
+	text-align: center;
 }
 
 article {
 	display: flex;
 	flex-direction: column;
+	width: 30%;
+	margin: 0.3em;
+	border: 1px solid lightblue;
+}
+
+header {
+	border: 1px dotted lightgray;
+	text-align: center;
 }
 
 section {
-
+	margin: 0;
 }
 
-h1 {
+/*TEXT STYLES*/
 
+h1, h2, h3, p {
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
 }
 
 h2 {
-
+	font-weight: bold;
 }
 
 h3 {
-
+	margin: 0.8em 0 0 0;
 }
 
 p.description {
-
+	margin: 0 0.5em 0.9em 0.5em;
 }
 
-p.specifications {
-
+p.specifications, p.pricing {
+	margin: 0 0 0 0.5em;
+	font-weight: bold;
 }
 
 p.valid {
-
+	margin: 0;
+	font-size: 0.3em;
 }
 
-p.pricing {
-
+.available, .notavailable {
+	width: 98%;
+	background-color: #999;
+	padding: 0.2em;
+	color: yellow;
+	font-family: 'Arial', sans-serif;
 }
-
-.available {
-
+.available:after {
+	content: 'Available';
 }
 .not-available {
+	content: 'Not Available';
+}
 
+/*IMAGE STYLES*/
+
+img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
