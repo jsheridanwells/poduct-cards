@@ -1,0 +1,53 @@
+body {
+	background-color: #333;
+}
+
+.container {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p.description {
+
+}
+
+p.specifications {
+
+}
+
+p.valid {
+
+}
+
+p.pricing {
+
+}
+
+.available {
+
+}
+.not-available {
+
+}
